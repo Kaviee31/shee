@@ -16,7 +16,7 @@ import SignupScreen from "../screens/SignupScreen";  // Import Signup Screen
 import AddEmergencyContactScreen from "../screens/AddEmergencyContactScreen";
 import SleepTrackerScreen from "../screens/SleepTrackerScreen";
 import TestsScreen from "../screens/TestsScreen";
-
+import ForgotPassword from '../screens/ForgotPassword';
 
 const Stack = createStackNavigator();
 
@@ -39,6 +39,7 @@ const AppNavigator = () => {
       <Stack.Screen name="AddEmergencyContact" component={AddEmergencyContactScreen} />
       <Stack.Screen name="SleepTracker" component={SleepTrackerScreen} />
       <Stack.Screen name="TestsScreen" component={TestsScreen} />
+      <Stack.Screen name="ForgotPassword" component={ForgotPassword} />
     </Stack.Navigator>
   );
 };
