@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "WomenSafetyApp",
+    "slug": "womensafetyapp",
+    "version": "1.0.0",
+    "sdkVersion": "52.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "jsEngine": "hermes",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.Mani.womensafetyapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.Mani.womensafetyapp"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-notifications"
+
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "510f1a8c-a265-40bc-91fc-8c3bcd3aeaea"
+      }
+    },
+    "owner": "manimegala"
+  }
+}
